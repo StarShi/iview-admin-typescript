@@ -1,94 +1,104 @@
    /*导航展开图标样式*/
    .admin-title {
-       text-align: center;
-   }
+    text-align: center;
+}
 
-   .admin-title span {
-       display: inline-block;
-       cursor: pointer;
-       font-size: 30px;
-       font-weight: 800;
-       letter-spacing: 1px;
-       color: #088AF0;
-       text-align: center;
-       margin: 20px auto 10px;
-   }
+.admin-title span {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #088AF0;
+    text-align: center;
+    margin: 20px auto 10px;
+}
 
-   .admin-title img {
-       cursor: pointer;
-       width: 100%;
-       padding: 0 10px;
-   }
+.admin-title img {
+    cursor: pointer;
+    width: 100%;
+    padding: 0 10px;
+}
 
-   .menu-item span {
-       display: inline-block;
-       overflow: hidden;
-       width: 69px;
-       text-overflow: ellipsis;
-       white-space: nowrap;
-       vertical-align: bottom;
-       transition: width .2s ease .2s;
-   }
+.menu-item span {
+    display: inline-block;
+    overflow: hidden;
+    width: 69px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    vertical-align: bottom;
+    transition: width .2s ease .2s;
+}
 
-   .menu-item i {
-       transform: translateX(0px);
-       transition: font-size .2s ease, transform .2s ease;
-       vertical-align: middle;
-       font-size: 16px;
-   }
+.menu-item i {
+    transform: translateX(0px);
+    transition: font-size .2s ease, transform .2s ease;
+    vertical-align: middle;
+    font-size: 16px;
+}
 
-   /*导航收缩图标样式*/
-   .menu-side-scoller::-webkit-scrollbar {
-       /*隐藏滚轮*/
-       display: none;
-   }
+/*导航收缩图标样式*/
+.menu-side-scoller::-webkit-scrollbar {
+    /*隐藏滚轮*/
+    display: none;
+}
 
-   .collapsed-menu span {
-       width: 0px;
-       transition: width .2s ease;
-   }
+.collapsed-menu span {
+    width: 0px;
+    transition: width .2s ease;
+}
 
-   .collapsed-menu i {
-       transform: translateX(5px);
-       transition: font-size .2s ease .2s, transform .2s ease .2s;
-       vertical-align: middle;
-       font-size: 22px;
-       margin: 0 auto;
-   }
+.collapsed-menu i {
+    transform: translateX(5px);
+    transition: font-size .2s ease .2s, transform .2s ease .2s;
+    vertical-align: middle;
+    font-size: 22px;
+    margin: 0 auto;
+}
 
-   /*右边内容样式--头部*/
-   .layout-header-bar {
-       background: #fff;
-       box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
-   }
+/*右边内容样式--头部*/
+.layout-header-bar {
+    background: #fff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+}
 
-   .menu-icon {
-       transition: all .3s;
-   }
+.menu-icon {
+    transition: all .3s;
+    vertical-align: middle;
+}
 
-   .menu-icon:hover {
-       color: #2d8cf0;
-   }
+.menu-icon:hover {
+    color: #2d8cf0;
+}
 
-   .active-icon {
-       transform: rotate(90deg);
-   }
+.active-icon {
+    transform: rotate(90deg);
+}
 
-   .cur-menu-path {
-       margin-left: 20px;
-       display: inline-block;
-   }
+.cur-menu-path {
+    margin-left: 20px;
+    display: inline-block;
+}
 
-   .cur-custom-content {
-       float: right;
-       display: inline-block;
-       font-size: 0;
-       -webkit-text-size-adjust: none;
-       cursor: pointer;
-   }
+.cur-custom-content {
+    float: right;
+    display: inline-block;
+    font-size: 0;
+    -webkit-text-size-adjust: none;
+    cursor: pointer;
+}
 
-   .user-avatar-dropdown {
-       display: inline-block;
-       font-size: 16px;
-       margin-left: 8px;
-   }
+.user-avatar-dropdown {
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 8px;
+    vertical-align: middle;
+}
+
+/deep/.ivu-menu-vertical .ivu-menu-submenu-title-icon {
+    float: right;
+    position: relative;
+    top: 4px;
+    right: 0;
+    transform:none;
+}
