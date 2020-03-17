@@ -1,0 +1,12 @@
+/*怪异盒子*/
+.warpper{
+	width: 100%;
+	box-sizing:border-box;
+	clear:both;
+}
+/*清除浮动*/
+.warpper::after{
+	content: "";
+	display: block;
+	clear: both;
+}
